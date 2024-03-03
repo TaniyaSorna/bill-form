@@ -1,0 +1,7 @@
+ls -a
+
+cd .ssh
+
+ssh-keygen -o -t rsa -C email
+
+code id_rsa.pub 'enter dite hobe'
